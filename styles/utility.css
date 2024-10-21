@@ -1,0 +1,17 @@
+/* utility-first: quando tem uma classe que vai fazer apenas uma coisa ela apenas vai
+aplicar o grid */
+.grid {
+  display: grid;
+}
+
+.grid-flow-col {
+  grid-auto-flow: column;
+}
+
+.grid-cols-2 {
+  grid-template-columns: 1fr 1fr;
+}
+
+.gap-16 {
+  gap: 16px;
+}
