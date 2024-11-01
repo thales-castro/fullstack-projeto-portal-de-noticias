@@ -7,7 +7,7 @@
 
 .card {
   border-radius: 4px;
-  overflow: hidden; /*transbordamento*/
+  overflow: hidden; /* transbordamento */
   position: relative;
 
   &::before {
@@ -16,5 +16,14 @@
     inset: 0;
     top: 50%;
     background: linear-gradient(180deg, transparent 0%, #020617);
+  }
+
+  figcaption {
+    position: absolute;
+    bottom: 0;
+    padding: 24px;
+    h2 {
+      margin-top: 8px;
+    }
   }
 }
